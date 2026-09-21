@@ -14,7 +14,6 @@ dinamicamente na heap** (syscall `sbrk`) e impressos ao final da partida.
 | Arquivo | Descrição |
 |---|---|
 | `adivinhenumero.asm` | Código-fonte do jogo em Assembly RISC-V |
-| `arq_org.pdf` | Relatório de desenvolvimento |
 | `README.md` | Este arquivo (instruções de execução) |
 
 ## Requisitos
