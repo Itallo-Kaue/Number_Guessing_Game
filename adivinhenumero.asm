@@ -4,7 +4,7 @@
 # Integrantes do grupo:
 # Adryen Mendes da Silva     -- NUSP:16830145
 # Ítallo Kauê Barbosa Santos -- NUSP:16839029
-# Nátalia Yumi Watanabi      -- NUSP:13725566
+# Nátalia Yumi Watanabe      -- NUSP:13725566
 
 # Mensagens que serão exibidas ao jogador
 .data

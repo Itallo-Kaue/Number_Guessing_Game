@@ -14,6 +14,7 @@ dinamicamente na heap** (syscall `sbrk`) e impressos ao final da partida.
 | Arquivo | Descrição |
 |---|---|
 | `adivinhenumero.asm` | Código-fonte do jogo em Assembly RISC-V |
+| `arq_org.pdf` | Relatório de desenvolvimento |
 | `README.md` | Este arquivo (instruções de execução) |
 
 ## Requisitos
@@ -60,8 +61,8 @@ geram números secretos diferentes (a semente `7`, por exemplo, gera o número 6
 Digite cada palpite, entre 1 e 100, no mesmo campo, sempre seguido de **Enter**. O
 programa responde:
 
-- `Seu palpite eh maior` — o número secreto é menor que o seu palpite
-- `Seu palpite eh menor` — o número secreto é maior que o seu palpite
+- `Seu palpite eh maior que o numero secreto` — o número secreto é menor que o seu palpite
+- `Seu palpite eh menor que o numero secreto` — o número secreto é maior que o seu palpite
 - `Correto! Voce acertou!` — fim de jogo
 
 Valores fora do intervalo de 1 a 100 são recusados com `Palpite fora da faixa!` e não
@@ -98,13 +99,13 @@ Digite seu palpite: 150
 Palpite fora da faixa! Digite um numero entre 1 a 100
 
 Digite seu palpite: 100
-Seu palpite eh maior
+Seu palpite eh maior que o numero secreto
 
 Digite seu palpite: 50
-Seu palpite eh menor
+Seu palpite eh menor que o numero secreto
 
 Digite seu palpite: 70
-Seu palpite eh maior
+Seu palpite eh maior que o numero secreto
 
 Digite seu palpite: 65
 Correto! Voce acertou!
